@@ -15,8 +15,6 @@ class Solution {
             arr[i] = Integer.parseInt(arrItems[i]);
         }
 
-        int start = n % d;
-
         int[] newArr = new int[n];
 
         int count = 0;
